@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour {
 		this._updateScoreBoard();
 	}
 	
-	public int Lives {
+	public int Life {
 		get {
 			return this._livesValue;
 		}
@@ -66,7 +66,7 @@ public class GameController : MonoBehaviour {
 	//PRIVATE METHODS
 	private void _updateScoreBoard(){
 		this.scoreLabel.text = "Score: " + this._scoreValue;
-		this.livesLabel.text = "Lives: " + this._livesValue;
+		this.livesLabel.text = "Life: " + this._livesValue;
 	}
 	
 	
